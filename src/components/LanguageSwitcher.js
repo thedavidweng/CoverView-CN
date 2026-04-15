@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Select from 'react-select';
 
 const languages = [
   { value: 'en', label: 'English' },
@@ -27,31 +26,24 @@ const languages = [
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
 
-  const handleChange = (selectedOption) => {
-    i18n.changeLanguage(selectedOption.value);
+  const handleChange = (e) => {
+    i18n.changeLanguage(e.target.value);
   };
 
-  const currentLang = languages.find(lang => lang.value === i18n.language) || languages[0];
+  const currentLang = i18n.language || 'en';
 
   return (
-    <Select
+    <select
       value={currentLang}
       onChange={handleChange}
-      options={languages}
-      className="w-28"
-      styles={{
-        control: (base) => ({
-          ...base,
-          minHeight: '32px',
-          fontSize: '12px',
-        }),
-        container: (base) => ({
-          ...base,
-          width: '110px',
-        }),
-      }}
-      isSearchable={false}
-    />
+      className="focus:outline-none text-sm p-1 rounded border"
+    >
+      {languages.map((lang) => (
+        <option key={lang.value} value={lang.value}>
+          {lang.label}
+        </option>
+      ))}
+    </select>
   );
 };
 
