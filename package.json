@@ -14,7 +14,7 @@
     "react": "^16.14.0",
     "react-component-export-image": "^0.1.6",
     "react-dom": "^16.14.0",
-    "react-i18next": "^15.4.1",
+    "react-i18next": "^15.7.4",
     "react-router-dom": "^6.30.3",
     "react-scripts": "5.0.1",
     "react-select": "^5.10.2",
