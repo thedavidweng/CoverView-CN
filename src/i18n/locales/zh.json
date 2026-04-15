@@ -45,8 +45,8 @@
     "isFree": "Coverview 是免费的吗？",
     "isFreeDesc": "是的！Coverview 完全免费使用。",
     "customLogo": "可以上传我自己的品牌标志吗？",
-    "customLogoDesc": "可以。只需在图标部分搜索并选择 custom，即可上传自己的标志来个性化你的封面图片。",
-    "seeExample": "查看示例",
+    "customLogoDesc": "可以。只需在图标部分搜索并选择自定义，即可上传自己的标志来个性化你的封面图片。",
+    "seeExample": "查看",
     "nonTechnical": "可以将 Coverview 用于非技术/个人博客吗？",
     "nonTechnicalDesc": "当然可以！虽然 Coverview 是为技术博客设计的，你仍然可以将其用于个人博客。查看时尚主题了解更多。",
     "whyUse": "为什么要使用 Coverview？",
@@ -58,6 +58,23 @@
   },
   "language": {
     "en": "English",
-    "zh": "中文"
+    "zh": "中文",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "ko": "한국어",
+    "pt": "Português",
+    "ru": "Русский",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "it": "Italiano",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "tr": "Türkçe",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "id": "Bahasa Indonesia",
+    "uk": "Українська"
   }
 }
