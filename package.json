@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
-    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "dom-to-image": "^2.6.0",
@@ -17,7 +17,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-i18next": "^15.7.4",
-    "react-router-dom": "^6.30.3",
+    "react-router-dom": "^7.18.4",
     "react-scripts": "5.0.1",
     "react-select": "^5.10.2",
     "unsplash-js": "^7.0.20",
@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
-    "postcss": "^8.5.10",
+    "postcss": "^8.5.23",
     "tailwindcss": "^3.0.24"
   }
 }
