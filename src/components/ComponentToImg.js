@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-// import { exportComponentAsPNG } from "react-component-export-image";
 import "./CoverImage.css";
 import { ImgContext } from "../utils/ImgContext";
 import unsplash from "../utils/unsplashConfig";
@@ -27,7 +26,6 @@ const ComponentToImg = (props) => {
 	}
 
 	const downloadImage = async () => {
-		// exportComponentAsPNG(componentRef, 'cover')
 		setLoading(true)
 
 		const element = componentRef.current;

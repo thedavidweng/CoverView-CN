@@ -2,6 +2,9 @@
   "name": "cover-img",
   "version": "0.1.0",
   "private": true,
+  "overrides": {
+    "qs": "^6.16.0"
+  },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@testing-library/jest-dom": "^4.2.4",
@@ -12,7 +15,6 @@
     "i18next": "^24.2.3",
     "i18next-browser-languagedetector": "^8.0.4",
     "react": "^16.14.0",
-    "react-component-export-image": "^1.0.6",
     "react-dom": "^16.14.0",
     "react-i18next": "^15.7.4",
     "react-router-dom": "^6.30.3",
